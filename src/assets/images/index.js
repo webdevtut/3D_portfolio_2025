@@ -1,15 +1,18 @@
 import hero from './hero.jpg'
-import meta from './meta.png'
-import shopify from './shopify.png'
-import starbucks from './starbucks.png'
-import tesla from './tesla.png'
 import logo from './logo.svg'
+import idea from './idea.png'
+import hpe from './hpe.png'
+import mphasis from './mphasis.ico'
+import appic from './appic.svg'
+import ifanow from './ifanow.svg'
+
 
 export {
     hero,
-    meta,
-    shopify,
-    starbucks,
-    tesla,
+    idea,
+    hpe,
+    mphasis,
+    appic,
+    ifanow,
     logo
 }

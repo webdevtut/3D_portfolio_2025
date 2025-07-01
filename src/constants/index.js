@@ -1,5 +1,6 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { idea, hpe, mphasis, appic, ifanow } from "../assets/images";
 import {
+    angular,
     car,
     contact,
     css,
@@ -28,8 +29,8 @@ import {
 
 export const skills = [
     {
-        imageUrl: css,
-        name: "CSS",
+        imageUrl: angular,
+        name: "Angular",
         type: "Frontend",
     },
     {
@@ -58,19 +59,14 @@ export const skills = [
         type: "Frontend",
     },
     {
+        imageUrl: css,
+        name: "CSS",
+        type: "Frontend",
+    },
+    {
         imageUrl: mongodb,
         name: "MongoDB",
         type: "Database",
-    },
-    {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
     },
     {
         imageUrl: nextjs,
@@ -111,55 +107,53 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Angular Developer",
+        company_name: "Idealake",
+        icon: idea,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "August 2023 - Jan 2025",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developing and maintaining web applications using Angular, Node.js and other related technologies."
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
+        title: "Senior Software Developer",
+        company_name: "Mphasis",
+        icon: mphasis,
+        iconBg: "#d7dadc",
         date: "Jan 2022 - Jan 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products."
+        ],
+    },
+    {
+        title: "Angular Developer",
+        company_name: "Appic Mobile",
+        icon: appic,
+        iconBg: "#b7e4c7",
+        date: "Jul 2021 - Dec 2021",
+        points: [
+            "Implementing responsive design and ensuring cross-browser compatibility."
+        ],
+    },
+    {
+        title: "Software Engineer",
+        company_name: "IFANow",
+        icon: ifanow,
+        iconBg: "#346b4e",
+        date: "Jan 2021 - May 2021",
+        points: [
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
+        title: "Data Center Support Engineer",
+        company_name: "HPE",
+        icon: hpe,
+        iconBg: "#000000",
+        date: "September 2016 - Jan 2018",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Working and maintaining Servers, Storages, Networking devices for mission critical systems.",
         ],
     },
 ];
@@ -173,12 +167,12 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/Webdevtut',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/tushar-web-dev',
     }
 ];
 
@@ -186,43 +180,43 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Clothify',
+        description: 'Developed online E-commerce website with React Hooks, Context API, Suspense, React Lazy, Redux, Redux Thunk and Redux Saga.',
+        link: 'https://redux-clothify.netlify.app/',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'Happenstance',
+        description: 'Full-stack Wholesome Dating and Chat Application made with Angular, .NET, Postgresql, SignalIR .',
+        link: 'https://happenstance.up.railway.app/',
     },
     {
         iconUrl: car,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'Detour',
+        description: 'Full stack Tourism / Travel Website made with Node.js, Pug Templates, MongoDB, Mapbox. (Advanced Redis caching and Mongo Geo-location Querying Implemented)',
+        link: 'https://d-tour.up.railway.app/',
     },
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'Blogfeed',
+        description: 'Blogging website made with React, Express, MongoDB.(Features : Scalable Image upload + Google OAuth 2.0 + Redis Cache)',
+        link: 'https://blogfeed.onrender.com/',
     },
     {
         iconUrl: estate,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'Professional Beginners',
+        description: 'Blogging Website made with Angular and ngrx.',
+        link: 'https://ng-redux-blogger.vercel.app/',
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        name: 'Omni API Automation',
+        description: 'App that creates Reusable CRUD APIs for specified Service.',
+        link: 'https://omni-api-automation.vercel.app/',
     }
 ];
