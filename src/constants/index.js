@@ -111,7 +111,7 @@ export const experiences = [
         company_name: "Idealake",
         icon: idea,
         iconBg: "#accbe1",
-        date: "August 2023 - Jan 2025",
+        date: "August 2023 - Jun 2025",
         points: [
             "Developing and maintaining web applications using Angular, Node.js and other related technologies."
         ],
@@ -141,7 +141,7 @@ export const experiences = [
         company_name: "IFANow",
         icon: ifanow,
         iconBg: "#346b4e",
-        date: "Jan 2021 - May 2021",
+        date: "Jan 2021 - Jun 2021",
         points: [
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
